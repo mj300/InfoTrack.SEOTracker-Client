@@ -27,7 +27,7 @@
           {{moment(record.insertDate)}}
         </span>
       </template>
-        <template v-if="column.key === 'lastRank'">
+        <template v-if="column.key === 'ranks'">
         <span>
           {{record.ranks ? record.ranks:'Not Listed'}}
         </span>
